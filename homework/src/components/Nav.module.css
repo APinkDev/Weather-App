@@ -1,0 +1,15 @@
+.nav{
+    display: flex;
+    position: absolute;
+    top: -2rem;
+    left: 2rem;
+
+}
+.navLink{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.navLink + .navLink{
+    margin-left: 1rem;
+}

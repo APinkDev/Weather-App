@@ -1,0 +1,92 @@
+.card {
+  cursor: help;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 20vh;
+  padding: 10px;
+  color: #ffffffff;
+}
+
+.card + .card {
+  border-left: solid 1px #3030302c;
+}
+
+.card > img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5vh 15vh;
+  width: 20rem;
+  padding: 0 0.5rem;
+}
+
+.primary > span {
+  margin-top: 0.5rem;
+  grid-column: 1 / span 2;
+}
+
+.primary > img {
+  padding-top: 10rem;
+  width: 10rem;
+  height: 20rem;
+}
+.link {
+  color: #ffffff;
+}
+.name {
+  background-color: #00000079;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.temp {
+  display: flex;
+  flex-direction: column;
+  width: 3rem;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.temp + .temp {
+  margin-left: 1rem;
+  /* espacio entre max y min */
+}
+
+.temps {
+  display: flex;
+}
+
+.button {
+  border: solid 2px transparent;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  width: 1.5rem;
+  padding: 0;
+  height: 1.5rem;
+  align-items: center;
+  background-color: transparent;
+  transition: background-color 0.25s;
+  cursor: crosshair;
+  color: #fff;
+  margin-left: 0.5rem;
+  margin-right: -0.5rem;
+}
+
+.button:hover {
+  background-color: #b9babb9d;
+  color: #fff;
+}

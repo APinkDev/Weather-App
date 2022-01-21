@@ -1,0 +1,27 @@
+.city{
+    /* border: 1rem solid green; */
+    color: white;
+
+}
+.container{
+    /* border: 1rem solid black; */
+    display: flex;
+    justify-content: center
+}
+.detail{
+    display:flex;
+    flex-direction:column;
+    
+}
+.prop{
+    display: flex;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    border: 1px solid rgba(75, 75, 75, 0.335);
+    border-radius: 10rem;
+
+}
+.prop > label{
+    margin-right: 0.5rem;
+}
